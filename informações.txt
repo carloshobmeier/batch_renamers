@@ -1,0 +1,144 @@
+
+
+EXPLICAÇÃO:
+
+
+
+renomear_adicionar_na_posicao_pelo_comeco.py
+- não tem funcionamento recursivo
+- renomeia também diretórios que estejam no caminho
+- usuário diz ponto inicial (contando do começo) e 'quais os caracteres que serão adicionados' ali (aparece uma lista, sublinhando o trecho e depois pede confirmação)
+
+
+renomear_adicionar_na_posicao_pelo_final.py
+- não tem funcionamento recursivo
+- renomeia também diretórios que estejam no caminho
+- usuário diz ponto inicial (contando do final) e 'quais os caracteres que serão adicionados' ali (aparece uma lista, sublinhando o trecho e depois pede confirmação)
+- o último caracter do que será adicionado ocupa a posição informada pelo usuário a partir do final
+
+
+renomear_adicionar_prefixo.py:
+- também vai renomear os diretórios que estejam na pasta dada como caminho
+- não tem funcionamento recursivo, ou seja, não vai adicionar o prefixo nos itens que estejam nos subdiretórios
+
+
+renomear_adicionar_sufixo.py:
+- também vai renomear os diretórios que estejam na pasta dada como caminho
+- não tem funcionamento recursivo, ou seja, não vai adicionar o sufixo nos itens que estejam nos subdiretórios
+
+
+renomear_arquivos_para.py:
+- não vai renomear os diretórios que estejam na pasta dada como caminho
+- não tem funcionamento recursivo
+- substitui o nome de todos os arquivos no caminho dado pelo usuário pelo padrão desejado. Ex: padrão_1, padrão_2...
+
+
+renomear_excluir_a_partir_de_caracter_especifico.py
+- usuário diz o caracter para procurar... por exemplo: (
+- tudo depois desse caracter é excluído (menos a extensão)
+- pode ou não ter funcionamento recursivo
+- se tiver funcionamento recursivo vai renomear também os diretórios
+- se não tiver funcionamento recursivo vai renomear só os arquivos da raiz (e não os subdiretórios, nem da raiz)
+
+
+renomear_excluir_caracteres_posicao_pelo_fim.py
+- pode ou não ter funcionamento recursivo
+- se tiver funcionamento recursivo vai renomear também os diretórios
+- se não tiver funcionamento recursivo vai renomear só os arquivos da raiz (e não os subdiretórios, nem da raiz)
+- usuário diz ponto inicial (contando do fim) e quantos caracteres serão excluídos a partir dele (aparece uma lista, sublinhando o trecho e depois pede confirmação)
+
+
+renomear_excluir_caracteres_posicao_pelo_inicio.py
+- pode ou não ter funcionamento recursivo
+- se tiver funcionamento recursivo vai renomear também os diretórios
+- se não tiver funcionamento recursivo vai renomear só os arquivos da raiz (e não os subdiretórios, nem da raiz)
+- usuário diz ponto inicial (contando do começo) e quantos caracteres serão excluídos a partir dele (aparece uma lista, sublinhando o trecho e depois pede confirmação)
+
+
+renomear_excluir_espacos_duplos.py
+- pode ou não ter funcionamento recursivo
+- renomeia tanto arquivos quanto diretórios
+- independente quantos espaços tiverem vai virar só 1 (sejam 2 ou 5, por exemplo)
+
+
+renomear_excluir_final_espaco_underline_traco.py
+- pode ter funcionamento recursivo ou não (ambos vão renomear pastas)
+- renomeia arquivos e diretórios
+- busca arquivos e diretórios cujo nome termina com espaço, underline ou traço e exclui esse caracter do final (mantendo a extensão)
+
+
+renomear_excluir_tracos_duplos.py
+- pode ou não ter funcionamento recursivo
+- renomeia tanto arquivos quanto diretórios
+- independente quantos traços tiverem vai virar só 1 (sejam 2 ou 5, por exemplo)
+
+
+renomear_excluir_underlines_duplos.py
+- pode ou não ter funcionamento recursivo
+- renomeia tanto arquivos quanto diretórios
+- independente quantos underlines tiverem vai virar só 1 (sejam 2 ou 5, por exemplo)
+
+
+renomear_normalizacao.py
+- usuário escolhe se vai ter funcionamento recursivo ou não
+- substitui os respectivos vetores que estão dentro do código (se quiser normalizar mais alguma coisa, altere ali)
+- se tiver funcionamento recursivo vai renomear também os diretórios
+- se não tiver funcionamento recursivo vai renomear só os arquivos (e não os subdiretórios)
+
+
+renomear_substituir_padroes.py:
+- também vai renomear os diretórios que estejam dentro do padrão e estão na pasta dada como caminho
+- se quiser só excluir um padrão, basta digitá-lo quando pede o que é para ser substituído e dar enter sem escrever nada no 'pelo que é para substituir'
+- se der ENTER no padrão atual e no novo padrão sem digitar nada, todos vão falhar e permanecer no estado em que estavam
+- não tem funcionamento recursivo, ou seja, não vai buscar nos subdiretórios por alguma coisa com o padrão informado
+
+
+renomear_truncar.py
+- não tem funcionamento recursivo
+- não renomeia diretórios
+dá um limite de tantos de caracteres para os nomes dos arquivos (se repetir nomes, ele numera - nesse caso passando do limite de caracteres)
+
+
+renomear_vetor_substituicao_caracteres_especiais_recursivo.py:
+- tem funcionamento recursivo
+- renomeia arquivos e diretórios
+- pega um vetor de caracteres a serem substituídos e os substitui pelo com a respectiva posição no vetor de substituição
+- vai servir para renomear caminhos inteiros, exemplo: tirando acentos, substituindo " " por "_", etc
+
+
+renomear_vetor_substituicao_caracteres_maiusculos_recursivo.py:
+- tem funcionamento recursivo
+- renomeia arquivos e diretórios
+- atenção: renomeia para minúsculo também a extensão dos arquivos
+- pega um vetor de caracteres a serem substituídos e os substitui pelo com a respectiva posição no vetor de substituição
+- vai servir para renomear caminhos inteiros, exemplo: substituindo "A" por "a", etc
+
+
+renomear_vetor_substituicao_caracteres_minusculos_recursivo.py:
+- tem funcionamento recursivo
+- renomeia arquivos e diretórios
+- atenção: renomeia para maiúsculo também a extensão dos arquivos
+- pega um vetor de caracteres a serem substituídos e os substitui pelo com a respectiva posição no vetor de substituição
+- vai servir para renomear caminhos inteiros, exemplo: substituindo "a" por "A", etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+CARACTERES ESPECIAIS
+caracteres_para_substituir = ['ç', ' ', 'ã', 'á', 'à', 'â', 'ä', 'ê', 'é', 'è', 'ë', 'ì', 'î', 'ï', 'í', 'ú', 'ù', 'ü', 'û', 'õ', 'ó', 'ò', 'ô', 'ö', 'Ã', 'Á', 'À', 'Â', 'Ä', 'Ê', 'É', 'È', 'Ë', 'Ì', 'Î', 'Ï', 'Í', 'Ú', 'Ù', 'Ü', 'Û', 'Õ', 'Ó', 'Ò', 'Ô', 'Ö']  # caracteres a substituir
+substitutos =                ['c', '_', 'a', 'a', 'a', 'a', 'a', 'e', 'e', 'e', 'e', 'i', 'i', 'i', 'i', 'u', 'u', 'u', 'u', 'o', 'o', 'o', 'o', 'o', 'A', 'A', 'A', 'A', 'A', 'E', 'E', 'E', 'E', 'I', 'I', 'I', 'I', 'U', 'U', 'U', 'U', 'O', 'O', 'O', 'O', 'O']                # substitutos
+
+
+MAIÚSCULOS
+caracteres_para_substituir = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Ç', 'Ã', 'Á', 'À', 'Â', 'Ä', 'Ê', 'É', 'È', 'Ë', 'Ì', 'Î', 'Ï', 'Í', 'Ú', 'Ù', 'Ü', 'Û', 'Õ', 'Ó', 'Ò', 'Ô', 'Ö']
+substitutos =                ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ç', 'ã', 'á', 'à', 'â', 'ä', 'ê', 'é', 'è', 'ë', 'ì', 'î', 'ï', 'í', 'ú', 'ù', 'ü', 'û', 'õ', 'ó', 'ò', 'ô', 'ö']
+
